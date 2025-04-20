@@ -1,5 +1,6 @@
 import React from 'react';
 import ScrollReveal from './ScrollReveal';
+import { FaMusic, FaAward, FaChalkboardTeacher, FaChild, FaUsers, FaShoePrints } from 'react-icons/fa';
 
 const GallerySection: React.FC = () => {
   const galleryImages = [
@@ -45,7 +46,7 @@ const GallerySection: React.FC = () => {
             {/* Card 1 */}
             <div className="overflow-hidden rounded-sm bg-[#8B7355] p-1">
               <div className="w-full h-64 bg-[#F8F0E9] flex flex-col items-center justify-center p-6">
-                <i className="fas fa-music text-4xl text-[#8B7355] mb-4"></i>
+                <FaMusic className="text-4xl text-[#8B7355] mb-4" />
                 <h3 className="font-playfair text-xl font-medium text-center">Performance</h3>
                 <p className="text-sm text-center mt-2">Annual student showcase at Houston Theater</p>
               </div>
@@ -54,7 +55,7 @@ const GallerySection: React.FC = () => {
             {/* Card 2 */}
             <div className="overflow-hidden rounded-sm bg-[#8B7355] p-1">
               <div className="w-full h-64 bg-[#F8F0E9] flex flex-col items-center justify-center p-6">
-                <i className="fas fa-award text-4xl text-[#8B7355] mb-4"></i>
+                <FaAward className="text-4xl text-[#8B7355] mb-4" />
                 <h3 className="font-playfair text-xl font-medium text-center">Achievements</h3>
                 <p className="text-sm text-center mt-2">Students accepted to prestigious ballet academies</p>
               </div>
@@ -63,7 +64,7 @@ const GallerySection: React.FC = () => {
             {/* Card 3 */}
             <div className="overflow-hidden rounded-sm bg-[#8B7355] p-1">
               <div className="w-full h-64 bg-[#F8F0E9] flex flex-col items-center justify-center p-6">
-                <i className="fas fa-chalkboard-teacher text-4xl text-[#8B7355] mb-4"></i>
+                <FaChalkboardTeacher className="text-4xl text-[#8B7355] mb-4" />
                 <h3 className="font-playfair text-xl font-medium text-center">Classes</h3>
                 <p className="text-sm text-center mt-2">Professional instruction in technique and artistry</p>
               </div>
@@ -72,7 +73,7 @@ const GallerySection: React.FC = () => {
             {/* Card 4 */}
             <div className="overflow-hidden rounded-sm bg-[#8B7355] p-1">
               <div className="w-full h-64 bg-[#F8F0E9] flex flex-col items-center justify-center p-6">
-                <i className="fas fa-child text-4xl text-[#8B7355] mb-4"></i>
+                <FaChild className="text-4xl text-[#8B7355] mb-4" />
                 <h3 className="font-playfair text-xl font-medium text-center">Children's Ballet</h3>
                 <p className="text-sm text-center mt-2">Age-appropriate instruction for young dancers</p>
               </div>
@@ -81,7 +82,7 @@ const GallerySection: React.FC = () => {
             {/* Card 5 */}
             <div className="overflow-hidden rounded-sm bg-[#8B7355] p-1">
               <div className="w-full h-64 bg-[#F8F0E9] flex flex-col items-center justify-center p-6">
-                <i className="fas fa-users text-4xl text-[#8B7355] mb-4"></i>
+                <FaUsers className="text-4xl text-[#8B7355] mb-4" />
                 <h3 className="font-playfair text-xl font-medium text-center">Adult Programs</h3>
                 <p className="text-sm text-center mt-2">Ballet for all ages and experience levels</p>
               </div>
@@ -90,7 +91,7 @@ const GallerySection: React.FC = () => {
             {/* Card 6 */}
             <div className="overflow-hidden rounded-sm bg-[#8B7355] p-1">
               <div className="w-full h-64 bg-[#F8F0E9] flex flex-col items-center justify-center p-6">
-                <i className="fas fa-shoe-prints text-4xl text-[#8B7355] mb-4"></i>
+                <FaShoePrints className="text-4xl text-[#8B7355] mb-4" />
                 <h3 className="font-playfair text-xl font-medium text-center">Technique</h3>
                 <p className="text-sm text-center mt-2">Foundation building through disciplined practice</p>
               </div>
