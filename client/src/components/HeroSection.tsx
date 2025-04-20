@@ -3,9 +3,9 @@ import React, { useState, useEffect } from 'react';
 const HeroSection: React.FC = () => {
   const [activeIndex, setActiveIndex] = useState(0);
   const heroImages = [
-    'https://images.unsplash.com/photo-1592441097689-0674c694581e?ixlib=rb-4.0.3&auto=format&fit=crop&w=1170&q=80',
-    'https://images.unsplash.com/photo-1578311013653-9a058a5a8695?ixlib=rb-4.0.3&auto=format&fit=crop&w=1974&q=80',
-    'https://images.unsplash.com/photo-1516741247836-f66a24178c9c?ixlib=rb-4.0.3&auto=format&fit=crop&w=1974&q=80'
+    'https://cdn.pixabay.com/photo/2017/08/06/06/25/ballet-2589488_1280.jpg',
+    'https://cdn.pixabay.com/photo/2018/05/03/22/04/ballerina-3372266_1280.jpg',
+    'https://cdn.pixabay.com/photo/2015/07/02/10/22/dance-828718_1280.jpg'
   ];
 
   useEffect(() => {

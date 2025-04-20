@@ -4,27 +4,27 @@ import ScrollReveal from './ScrollReveal';
 const GallerySection: React.FC = () => {
   const galleryImages = [
     {
-      src: "https://images.unsplash.com/photo-1554559731-1f6bd5dc1ee3?ixlib=rb-4.0.3&auto=format&fit=crop&w=774&q=80",
+      src: "https://cdn.pixabay.com/photo/2018/06/04/13/37/ballet-3453817_1280.jpg",
       alt: "Ballet class"
     },
     {
-      src: "https://images.unsplash.com/photo-1564710925690-c863a69af44d?ixlib=rb-4.0.3&auto=format&fit=crop&w=774&q=80",
+      src: "https://cdn.pixabay.com/photo/2017/07/10/17/49/ballet-2490817_1280.jpg",
       alt: "Performance"
     },
     {
-      src: "https://images.unsplash.com/photo-1544646290-25c51816c6ca?ixlib=rb-4.0.3&auto=format&fit=crop&w=774&q=80",
+      src: "https://cdn.pixabay.com/photo/2018/06/29/01/47/ballet-3505288_1280.jpg",
       alt: "Ballet technique"
     },
     {
-      src: "https://images.unsplash.com/photo-1627872656086-815fc8ecfc1a?ixlib=rb-4.0.3&auto=format&fit=crop&w=774&q=80",
+      src: "https://cdn.pixabay.com/photo/2019/11/11/10/05/ballet-4617632_1280.jpg",
       alt: "Dance instruction"
     },
     {
-      src: "https://images.unsplash.com/photo-1615788139008-bc90e6a3a860?ixlib=rb-4.0.3&auto=format&fit=crop&w=774&q=80",
+      src: "https://cdn.pixabay.com/photo/2019/05/04/08/34/pointe-4177505_1280.jpg", 
       alt: "Ballet rehearsal"
     },
     {
-      src: "https://images.unsplash.com/photo-1551339182-8a3d448be6f6?ixlib=rb-4.0.3&auto=format&fit=crop&w=774&q=80",
+      src: "https://cdn.pixabay.com/photo/2019/06/08/13/16/ballet-4260499_1280.jpg",
       alt: "Ballet performance"
     }
   ];

@@ -17,7 +17,7 @@ const AboutSection: React.FC = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-16">
             <ScrollReveal className="overflow-hidden rounded-sm">
               <img 
-                src="https://images.unsplash.com/photo-1519415510236-718bdfcd89c8?ixlib=rb-4.0.3&auto=format&fit=crop&w=687&q=80" 
+                src="https://cdn.pixabay.com/photo/2018/09/24/08/37/ballet-3699107_1280.jpg" 
                 alt="Ballet instruction"
                 className="w-full h-full object-cover gallery-image"
                 loading="lazy"
