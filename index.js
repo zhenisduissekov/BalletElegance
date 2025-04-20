@@ -22,7 +22,7 @@ import path from "path";
 import runtimeErrorOverlay from "@replit/vite-plugin-runtime-error-modal";
 var vite_config_default = defineConfig({
   base: "/BalletElegance/",
-  // 👈 ВАЖНО: для GitHub Pages
+  // ⬅️ Ключевая строка для GitHub Pages!
   plugins: [
     react(),
     runtimeErrorOverlay(),
@@ -41,13 +41,8 @@ var vite_config_default = defineConfig({
     }
   },
   root: path.resolve(import.meta.dirname, "client"),
-  // build: {
-  //   outDir: path.resolve(import.meta.dirname, "dist/public"),
-  //   emptyOutDir: true,
-  // },
   build: {
     outDir: path.resolve(import.meta.dirname, "dist"),
-    // ⬅️ было dist/public
     emptyOutDir: true
   }
 });
