@@ -60,7 +60,7 @@ const GallerySection: React.FC = () => {
               <div className="w-full h-64 bg-[#F8F0E9] flex flex-col items-center justify-center p-6">
                 <FaAward className="text-4xl text-[#8B7355] mb-4" />
                 <h3 className="font-playfair text-xl font-medium text-center">Achievements</h3>
-                <p className="text-sm text-center mt-2">Students accepted to prestigious ballet academies</p>
+                <p className="text-sm text-center mt-2">Students placed in YAGP and Houston Ballet Academy</p>
               </div>
             </div>
             
@@ -69,7 +69,7 @@ const GallerySection: React.FC = () => {
               <div className="w-full h-64 bg-[#F8F0E9] flex flex-col items-center justify-center p-6">
                 <FaChalkboardTeacher className="text-4xl text-[#8B7355] mb-4" />
                 <h3 className="font-playfair text-xl font-medium text-center">Classes</h3>
-                <p className="text-sm text-center mt-2">Professional instruction in technique and artistry</p>
+                <p className="text-sm text-center mt-2">Vaganova and RAD methodology by a certified instructor</p>
               </div>
             </div>
             
@@ -78,7 +78,7 @@ const GallerySection: React.FC = () => {
               <div className="w-full h-64 bg-[#F8F0E9] flex flex-col items-center justify-center p-6">
                 <FaChild className="text-4xl text-[#8B7355] mb-4" />
                 <h3 className="font-playfair text-xl font-medium text-center">Children's Ballet</h3>
-                <p className="text-sm text-center mt-2">Age-appropriate instruction for young dancers</p>
+                <p className="text-sm text-center mt-2">Age-appropriate classes for ages 4-12, building confidence</p>
               </div>
             </div>
             
@@ -87,7 +87,7 @@ const GallerySection: React.FC = () => {
               <div className="w-full h-64 bg-[#F8F0E9] flex flex-col items-center justify-center p-6">
                 <FaUsers className="text-4xl text-[#8B7355] mb-4" />
                 <h3 className="font-playfair text-xl font-medium text-center">Adult Programs</h3>
-                <p className="text-sm text-center mt-2">Ballet for all ages and experience levels</p>
+                <p className="text-sm text-center mt-2">Beginner to advanced classes for 18+ with flexible scheduling</p>
               </div>
             </div>
             
@@ -96,7 +96,7 @@ const GallerySection: React.FC = () => {
               <div className="w-full h-64 bg-[#F8F0E9] flex flex-col items-center justify-center p-6">
                 <FaShoePrints className="text-4xl text-[#8B7355] mb-4" />
                 <h3 className="font-playfair text-xl font-medium text-center">Technique</h3>
-                <p className="text-sm text-center mt-2">Foundation building through disciplined practice</p>
+                <p className="text-sm text-center mt-2">Master classes focusing on pointe work and pas de deux</p>
               </div>
             </div>
           </ScrollReveal>
