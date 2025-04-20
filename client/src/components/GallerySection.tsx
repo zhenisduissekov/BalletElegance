@@ -42,16 +42,59 @@ const GallerySection: React.FC = () => {
           </ScrollReveal>
           
           <ScrollReveal className="grid grid-cols-1 md:grid-cols-3 gap-4">
-            {galleryImages.map((image, index) => (
-              <div key={index} className="overflow-hidden rounded-sm">
-                <img 
-                  src={image.src}
-                  alt={image.alt}
-                  className="w-full h-64 object-cover gallery-image"
-                  loading="lazy"
-                />
+            {/* Card 1 */}
+            <div className="overflow-hidden rounded-sm bg-[#8B7355] p-1">
+              <div className="w-full h-64 bg-[#F8F0E9] flex flex-col items-center justify-center p-6">
+                <i className="fas fa-music text-4xl text-[#8B7355] mb-4"></i>
+                <h3 className="font-playfair text-xl font-medium text-center">Performance</h3>
+                <p className="text-sm text-center mt-2">Annual student showcase at Houston Theater</p>
               </div>
-            ))}
+            </div>
+            
+            {/* Card 2 */}
+            <div className="overflow-hidden rounded-sm bg-[#8B7355] p-1">
+              <div className="w-full h-64 bg-[#F8F0E9] flex flex-col items-center justify-center p-6">
+                <i className="fas fa-award text-4xl text-[#8B7355] mb-4"></i>
+                <h3 className="font-playfair text-xl font-medium text-center">Achievements</h3>
+                <p className="text-sm text-center mt-2">Students accepted to prestigious ballet academies</p>
+              </div>
+            </div>
+            
+            {/* Card 3 */}
+            <div className="overflow-hidden rounded-sm bg-[#8B7355] p-1">
+              <div className="w-full h-64 bg-[#F8F0E9] flex flex-col items-center justify-center p-6">
+                <i className="fas fa-chalkboard-teacher text-4xl text-[#8B7355] mb-4"></i>
+                <h3 className="font-playfair text-xl font-medium text-center">Classes</h3>
+                <p className="text-sm text-center mt-2">Professional instruction in technique and artistry</p>
+              </div>
+            </div>
+            
+            {/* Card 4 */}
+            <div className="overflow-hidden rounded-sm bg-[#8B7355] p-1">
+              <div className="w-full h-64 bg-[#F8F0E9] flex flex-col items-center justify-center p-6">
+                <i className="fas fa-child text-4xl text-[#8B7355] mb-4"></i>
+                <h3 className="font-playfair text-xl font-medium text-center">Children's Ballet</h3>
+                <p className="text-sm text-center mt-2">Age-appropriate instruction for young dancers</p>
+              </div>
+            </div>
+            
+            {/* Card 5 */}
+            <div className="overflow-hidden rounded-sm bg-[#8B7355] p-1">
+              <div className="w-full h-64 bg-[#F8F0E9] flex flex-col items-center justify-center p-6">
+                <i className="fas fa-users text-4xl text-[#8B7355] mb-4"></i>
+                <h3 className="font-playfair text-xl font-medium text-center">Adult Programs</h3>
+                <p className="text-sm text-center mt-2">Ballet for all ages and experience levels</p>
+              </div>
+            </div>
+            
+            {/* Card 6 */}
+            <div className="overflow-hidden rounded-sm bg-[#8B7355] p-1">
+              <div className="w-full h-64 bg-[#F8F0E9] flex flex-col items-center justify-center p-6">
+                <i className="fas fa-shoe-prints text-4xl text-[#8B7355] mb-4"></i>
+                <h3 className="font-playfair text-xl font-medium text-center">Technique</h3>
+                <p className="text-sm text-center mt-2">Foundation building through disciplined practice</p>
+              </div>
+            </div>
           </ScrollReveal>
         </div>
       </div>

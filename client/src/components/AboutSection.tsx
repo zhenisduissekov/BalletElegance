@@ -15,13 +15,14 @@ const AboutSection: React.FC = () => {
           </ScrollReveal>
           
           <div className="grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-16">
-            <ScrollReveal className="overflow-hidden rounded-sm">
-              <img 
-                src="https://cdn.pixabay.com/photo/2018/09/24/08/37/ballet-3699107_1280.jpg" 
-                alt="Ballet instruction"
-                className="w-full h-full object-cover gallery-image"
-                loading="lazy"
-              />
+            <ScrollReveal className="overflow-hidden rounded-sm bg-[#8B7355] p-1">
+              <div 
+                className="w-full h-64 rounded-sm bg-[#F8F0E9] flex flex-col items-center justify-center p-6"
+              >
+                <i className="fas fa-star text-4xl text-[#8B7355] mb-4"></i>
+                <h3 className="font-playfair text-xl font-medium text-center">Ballet Excellence</h3>
+                <p className="text-sm text-center mt-2">Disciplined Training • Artistic Expression</p>
+              </div>
             </ScrollReveal>
             <ScrollReveal className="flex flex-col justify-center">
               <h3 className="font-playfair text-2xl font-medium mb-6">Expert Instruction</h3>

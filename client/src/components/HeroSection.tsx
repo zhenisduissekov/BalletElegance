@@ -31,24 +31,21 @@ const HeroSection: React.FC = () => {
   return (
     <section className="relative h-screen overflow-hidden">
       <div className="carousel relative h-full">
-        {heroImages.map((image, index) => (
-          <div
-            key={index}
-            className={`carousel-item ${index === activeIndex ? 'active' : ''} bg-cover bg-center h-full`}
-            style={{
-              backgroundImage: `url(${image})`,
-              opacity: index === activeIndex ? 1 : 0,
-              transition: 'opacity 1s ease-in-out',
-              position: 'absolute',
-              top: 0,
-              left: 0,
-              width: '100%',
-              height: '100%'
-            }}
-          >
-            <div className="absolute inset-0 bg-black bg-opacity-40"></div>
-          </div>
-        ))}
+        <div
+          className="carousel-item active bg-cover bg-center h-full"
+          style={{
+            backgroundColor: '#F8F0E9',
+            backgroundImage: 'linear-gradient(to bottom, #8B7355, #F8F0E9)',
+            opacity: 1,
+            position: 'absolute',
+            top: 0,
+            left: 0,
+            width: '100%',
+            height: '100%'
+          }}
+        >
+          <div className="absolute inset-0 bg-black bg-opacity-20"></div>
+        </div>
       </div>
       
       <div className="absolute inset-0 flex items-center justify-center text-center px-6">
