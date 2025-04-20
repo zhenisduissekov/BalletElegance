@@ -1,5 +1,6 @@
 import React from 'react';
 import ScrollReveal from './ScrollReveal';
+import { FaPhone, FaEnvelope, FaMapMarkerAlt } from 'react-icons/fa';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
@@ -64,21 +65,21 @@ const ContactSection: React.FC = () => {
                 </p>
                 <div className="space-y-4">
                   <div className="flex items-start">
-                    <i className="fas fa-phone text-[#8B7355] mt-1 mr-4"></i>
+                    <FaPhone className="text-[#8B7355] mt-1 mr-4" />
                     <div>
                       <p className="font-medium">Phone</p>
                       <a href="tel:+13467191003" className="hover:text-[#8B7355] transition-colors">+1 (346) 719-1003</a>
                     </div>
                   </div>
                   <div className="flex items-start">
-                    <i className="fas fa-envelope text-[#8B7355] mt-1 mr-4"></i>
+                    <FaEnvelope className="text-[#8B7355] mt-1 mr-4" />
                     <div>
                       <p className="font-medium">Email</p>
                       <a href="mailto:contact@sophia.dance" className="hover:text-[#8B7355] transition-colors">contact@sophia.dance</a>
                     </div>
                   </div>
                   <div className="flex items-start">
-                    <i className="fas fa-map-marker-alt text-[#8B7355] mt-1 mr-4"></i>
+                    <FaMapMarkerAlt className="text-[#8B7355] mt-1 mr-4" />
                     <div>
                       <p className="font-medium">Location</p>
                       <p>Houston, Texas</p>

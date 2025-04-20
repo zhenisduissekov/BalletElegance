@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'wouter';
 import { useLocation } from 'wouter';
+import { FaBars } from 'react-icons/fa';
 
 const Header: React.FC = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -63,7 +64,7 @@ const Header: React.FC = () => {
           onClick={toggleMobileMenu}
           aria-label="Toggle mobile menu"
         >
-          <i className="fas fa-bars text-xl"></i>
+          <FaBars className="text-xl" />
         </button>
       </div>
       

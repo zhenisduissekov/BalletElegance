@@ -1,5 +1,6 @@
 import React from 'react';
 import ScrollReveal from './ScrollReveal';
+import { FaArrowRight } from 'react-icons/fa';
 
 interface ClassCardProps {
   title: string;
@@ -14,7 +15,7 @@ const ClassCard: React.FC<ClassCardProps> = ({ title, description, fullWidth = f
       <p className="mb-4">{description}</p>
       <div className="mt-auto">
         <a href="#contact" className="inline-block text-[#8B7355] font-medium hover:underline">
-          Learn more <i className="fas fa-arrow-right ml-1"></i>
+          Learn more <FaArrowRight className="inline ml-1" />
         </a>
       </div>
     </div>
