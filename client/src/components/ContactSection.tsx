@@ -69,6 +69,7 @@ const ContactSection: React.FC = () => {
                     <div>
                       <p className="font-medium">Phone</p>
                       <a href="tel:+13467191003" className="hover:text-[#8B7355] transition-colors">+1 (346) 719-1003</a>
+                      <p className="text-xs mt-1 text-gray-500">Available weekdays 9AM-6PM</p>
                     </div>
                   </div>
                   <div className="flex items-start">
@@ -76,13 +77,15 @@ const ContactSection: React.FC = () => {
                     <div>
                       <p className="font-medium">Email</p>
                       <a href="mailto:contact@sophia.dance" className="hover:text-[#8B7355] transition-colors">contact@sophia.dance</a>
+                      <p className="text-xs mt-1 text-gray-500">Typical response time: 24-48 hours</p>
                     </div>
                   </div>
                   <div className="flex items-start">
                     <FaMapMarkerAlt className="text-[#8B7355] mt-1 mr-4" />
                     <div>
                       <p className="font-medium">Location</p>
-                      <p>Houston, Texas</p>
+                      <p>5718 Westheimer Rd, Suite 1200</p>
+                      <p>Houston, TX 77057</p>
                     </div>
                   </div>
                 </div>

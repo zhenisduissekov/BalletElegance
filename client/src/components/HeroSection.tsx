@@ -51,10 +51,10 @@ const HeroSection: React.FC = () => {
       <div className="absolute inset-0 flex items-center justify-center text-center px-6">
         <div className="max-w-3xl" data-aos="fade-up" data-aos-delay="200">
           <h1 className="font-playfair text-4xl md:text-6xl font-bold text-white mb-6">
-            Houston Professional Ballet Instructor
+            Houston's Premier Ballet Academy
           </h1>
           <p className="text-white text-lg md:text-xl opacity-90 mb-8" data-aos="fade-up" data-aos-delay="400">
-            Bringing 20 years of experience to aspiring dancers of all ages
+            Led by Sophia Petrov, former soloist with the Royal Ballet, bringing 20 years of excellence to Houston
           </p>
           <a 
             href="#contact" 

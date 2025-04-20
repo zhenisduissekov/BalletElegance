@@ -35,10 +35,13 @@ const GallerySection: React.FC = () => {
       <div className="container-custom">
         <div className="max-w-5xl mx-auto">
           <ScrollReveal className="text-center mb-16">
-            <h2 className="section-title">Gallery</h2>
+            <h2 className="section-title">Studio Highlights</h2>
             <div className="section-divider"></div>
+            <p className="text-lg leading-relaxed mb-4">
+              Explore our elegant studio space and the various programs we offer for dancers of all ages and skill levels.
+            </p>
             <p className="text-lg leading-relaxed">
-              Moments from classes, performances, and student achievements
+              Our modern facility features sprung floors, mirrors, barres, and climate control to ensure a safe and comfortable environment for optimal learning.
             </p>
           </ScrollReveal>
           
@@ -48,7 +51,7 @@ const GallerySection: React.FC = () => {
               <div className="w-full h-64 bg-[#F8F0E9] flex flex-col items-center justify-center p-6">
                 <FaMusic className="text-4xl text-[#8B7355] mb-4" />
                 <h3 className="font-playfair text-xl font-medium text-center">Performance</h3>
-                <p className="text-sm text-center mt-2">Annual student showcase at Houston Theater</p>
+                <p className="text-sm text-center mt-2">Annual recitals at Hobby Center for the Performing Arts</p>
               </div>
             </div>
             

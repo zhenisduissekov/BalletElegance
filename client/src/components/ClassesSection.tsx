@@ -30,8 +30,11 @@ const ClassesSection: React.FC = () => {
           <ScrollReveal className="text-center mb-16">
             <h2 className="section-title">Classes Offered</h2>
             <div className="section-divider"></div>
+            <p className="text-lg leading-relaxed mb-4">
+              Classes are held Monday through Friday in the morning hours (8:00 AM - 12:00 PM), with weekend workshops scheduled monthly.
+            </p>
             <p className="text-lg leading-relaxed">
-              Classes are held in the morning, lasting from 45 to 90 minutes. The first trial lesson is 30 minutes and free of charge.
+              Sessions range from 45 to 90 minutes depending on level and focus. Your first trial lesson is complimentary — a 30-minute private session to assess your needs and goals.
             </p>
           </ScrollReveal>
           

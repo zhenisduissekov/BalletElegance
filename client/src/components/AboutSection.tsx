@@ -8,10 +8,13 @@ const AboutSection: React.FC = () => {
       <div className="container-custom">
         <div className="max-w-4xl mx-auto">
           <ScrollReveal className="text-center mb-16">
-            <h2 className="section-title">About Sophia</h2>
+            <h2 className="section-title">About Sophia Petrov</h2>
             <div className="section-divider"></div>
+            <p className="text-lg leading-relaxed mb-4">
+              A former Royal Ballet soloist with over 20 years of professional experience, Sophia Petrov brings world-class ballet instruction to Houston. Her distinguished career includes performances across Europe and North America before transitioning to teaching in 2010.
+            </p>
             <p className="text-lg leading-relaxed">
-              A professional ballet instructor with 20 years of experience offering classes for children and adults in Houston. With a background in professional ballet companies and a passion for teaching, Sophia provides personalized instruction tailored to each student's needs and goals.
+              With certifications in the Vaganova and Royal Academy of Dance methodologies, Sophia offers comprehensive training that combines technical precision with artistic development, preparing students for both recreational enjoyment and professional careers.
             </p>
           </ScrollReveal>
           
