@@ -145,16 +145,8 @@ const ContactSection: React.FC = () => {
                             {/*    </div>*/}
                             {/*</div>*/}
                         </div>
-                        {/*<div className="flex items-center justify-center">*/}
-                        {/*    <img*/}
-                        {/*        src="/images/legs.jpeg"*/}
-                        {/*        alt="Sophia teaching ballet"*/}
-                        {/*        className="rounded shadow-lg max-h-[500px] w-full object-cover"*/}
-                        {/*    />*/}
-                        {/*</div>*/}
-
                         <img
-                            src="/images/legs.jpeg"
+                            src={`${import.meta.env.BASE_URL}images/legs.jpeg`}
                             alt="Sophia Ballet Studio"
                             className="rounded shadow-lg max-h-[400px] w-full object-cover"
                         />
