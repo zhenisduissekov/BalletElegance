@@ -145,6 +145,20 @@ const ContactSection: React.FC = () => {
                             {/*    </div>*/}
                             {/*</div>*/}
                         </div>
+                        {/*<div className="flex items-center justify-center">*/}
+                        {/*    <img*/}
+                        {/*        src="/images/legs.jpeg"*/}
+                        {/*        alt="Sophia teaching ballet"*/}
+                        {/*        className="rounded shadow-lg max-h-[500px] w-full object-cover"*/}
+                        {/*    />*/}
+                        {/*</div>*/}
+
+                        <img
+                            src="/images/legs.jpeg"
+                            alt="Sophia Ballet Studio"
+                            className="rounded shadow-lg max-h-[400px] w-full object-cover"
+                        />
+
                         {/*<div className="bg-white p-8 rounded shadow-md">*/}
                         {/*    <h3 className="text-2xl font-semibold mb-6">📬 Send a Message</h3>*/}
                         {/*    <Form {...form}>*/}
