@@ -8,13 +8,12 @@ const AboutSection: React.FC = () => {
       <div className="container-custom">
         <div className="max-w-4xl mx-auto">
           <ScrollReveal className="text-center mb-16">
-            <h2 className="section-title">About Sophia Petrov</h2>
+            <h2 className="section-title">About Instructor</h2>
             <div className="section-divider"></div>
             <p className="text-lg leading-relaxed mb-4">
-              A former Royal Ballet soloist with over 20 years of professional experience, Sophia Petrov brings world-class ballet instruction to Houston. Her distinguished career includes performances across Europe and North America before transitioning to teaching in 2010.
-            </p>
-            <p className="text-lg leading-relaxed">
-              With certifications in the Vaganova and Royal Academy of Dance methodologies, Sophia offers comprehensive training that combines technical precision with artistic development, preparing students for both recreational enjoyment and professional careers.
+              With over two decades of professional stage and teaching experience, our ballet instructors bring exceptional dedication, discipline, and precision to every lesson. Their students include aspiring professionals, competition participants, and committed adult learners.
+              They have extensive experience <span className="text-[#8B7355] font-semibold">coaching dancers for top-tier ballet competitions</span>, including the <span className="text-[#8B7355] font-semibold">Youth America Grand Prix (YAGP), American Ballet Competition – International Ballet Competition (ABC-IBC), Universal Ballet Competition (UBC)</span>, and many others.
+              Numerous students have been <span className="text-[#8B7355] font-semibold">nominated, awarded, or certified</span> by respected adjudicators and institutions across the United States.
             </p>
           </ScrollReveal>
           
@@ -31,7 +30,7 @@ const AboutSection: React.FC = () => {
             <ScrollReveal className="flex flex-col justify-center">
               <h3 className="font-playfair text-2xl font-medium mb-6">Expert Instruction</h3>
               <p className="mb-6 leading-relaxed">
-                From beginners to advanced students, Sophia's teaching methodology emphasizes proper technique, artistic expression, and physical development. Classes are structured to build a solid foundation while encouraging individual creativity.
+                From beginners to advanced students, methodology emphasizes proper technique, artistic expression, and physical development. Classes are structured to build a solid foundation while encouraging individual creativity.
               </p>
               <ul className="space-y-4">
                 <li className="flex items-start">

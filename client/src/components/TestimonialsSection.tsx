@@ -31,6 +31,7 @@ const TestimonialCard = ({ quote, name, title }: TestimonialCardProps) => {
 
 const TestimonialsSection = () => {
   return (
+      <section id="testimonials" className="py-16 bg-gray-100">
     <section className="py-20 md:py-24 bg-[#F8F0E9]">
       <div className="container-custom">
         <div className="max-w-4xl mx-auto">
@@ -56,7 +57,7 @@ const TestimonialsSection = () => {
             />
             
             <TestimonialCard
-              quote="The competition preparation was exceptional. Ms. Petrov's guidance on repertoire selection and coaching helped me place at YAGP regionals. Her attention to detail makes all the difference."
+              quote="The competition preparation was exceptional. Sofia's guidance on repertoire selection and coaching helped me place at YAGP regionals. Her attention to detail makes all the difference."
               name="Emma S."
               title="Pre-professional dancer, age 16"
             />
@@ -70,6 +71,7 @@ const TestimonialsSection = () => {
         </div>
       </div>
     </section>
+      </section>
   );
 };
 

@@ -53,7 +53,7 @@ const Header: React.FC = () => {
           <ul className="flex space-x-6">
             <li><a href="#about" onClick={() => scrollToSection('about')} className="nav-link">About</a></li>
             <li><a href="#classes" onClick={() => scrollToSection('classes')} className="nav-link">Classes</a></li>
-            <li><a href="#gallery" onClick={() => scrollToSection('gallery')} className="nav-link">Gallery</a></li>
+            {/*<li><a href="#gallery" onClick={() => scrollToSection('gallery')} className="nav-link">Gallery</a></li>*/}
             <li><a href="#testimonials" onClick={(e) => { e.preventDefault(); document.getElementById('testimonials')?.scrollIntoView({ behavior: 'smooth' }); closeMenu(); }} className="nav-link">Testimonials</a></li>
             <li><a href="#contact" onClick={() => scrollToSection('contact')} className="nav-link">Contact</a></li>
           </ul>
@@ -75,7 +75,7 @@ const Header: React.FC = () => {
           <ul className="space-y-4">
             <li><a href="#about" onClick={() => scrollToSection('about')} className="block text-black hover:text-[#8B7355] transition-colors duration-300">About</a></li>
             <li><a href="#classes" onClick={() => scrollToSection('classes')} className="block text-black hover:text-[#8B7355] transition-colors duration-300">Classes</a></li>
-            <li><a href="#gallery" onClick={() => scrollToSection('gallery')} className="block text-black hover:text-[#8B7355] transition-colors duration-300">Gallery</a></li>
+            {/*<li><a href="#gallery" onClick={() => scrollToSection('gallery')} className="block text-black hover:text-[#8B7355] transition-colors duration-300">Gallery</a></li>*/}
             <li><a href="#testimonials" onClick={(e) => { e.preventDefault(); document.getElementById('testimonials')?.scrollIntoView({ behavior: 'smooth' }); closeMenu(); }} className="block text-black hover:text-[#8B7355] transition-colors duration-300">Testimonials</a></li>
             <li><a href="#contact" onClick={() => scrollToSection('contact')} className="block text-black hover:text-[#8B7355] transition-colors duration-300">Contact</a></li>
           </ul>
