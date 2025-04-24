@@ -13,13 +13,9 @@ function Routes() {
     );
 }
 
-// Dynamically set base for Wouter routing
-const isDev = import.meta.env.DEV;
-const base = isDev ? "/" : "/BalletElegance";
-
 function App() {
     return (
-        <Router base={base}>
+        <Router base="/">
             <TooltipProvider>
                 <Toaster />
                 <Routes />
