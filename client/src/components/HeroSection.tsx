@@ -17,7 +17,8 @@ const HeroSection: React.FC = () => {
         <section
             className="relative h-screen overflow-hidden flex flex-col justify-center items-center text-white text-center"
             style={{
-                backgroundImage: `url('${import.meta.env.BASE_URL}images/${isMobile ? "baletki-mobile.jpeg" : "baletki.jpeg"}')`,
+                // backgroundImage: `url('${import.meta.env.BASE_URL}images/${isMobile ? "baletki-mobile.jpeg" : "baletki.jpeg"}')`,
+                backgroundImage: `url('${import.meta.env.BASE_URL}images/${isMobile ? "image6.jpeg" : "image6.jpeg"}')`,
                 backgroundSize: "cover",
                 backgroundPosition: "center",
                 backgroundRepeat: "no-repeat"

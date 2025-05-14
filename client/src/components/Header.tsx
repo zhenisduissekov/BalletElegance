@@ -44,7 +44,12 @@ const Header: React.FC = () => {
     <header className={`fixed w-full bg-white bg-opacity-95 shadow-sm z-50 transition-all duration-300 ${scrolled ? 'py-2' : 'py-4'}`}>
       <div className="container-custom flex justify-between items-center">
         {/* Logo */}
-        <Link href="/" className="flex items-center">
+        {/*<Link href="/" className="flex items-center">*/}
+        {/*  <h1 className="font-playfair text-2xl font-medium text-black tracking-wider">SOPHIA.DANCE</h1>*/}
+        {/*</Link>*/}
+
+        <Link href="/" className="flex items-center space-x-2">
+          {/*<img src="/images/logo2.jpeg" alt="Logo" className="h-8 w-auto" />*/}
           <h1 className="font-playfair text-2xl font-medium text-black tracking-wider">SOPHIA.DANCE</h1>
         </Link>
         

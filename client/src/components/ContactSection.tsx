@@ -91,22 +91,22 @@ const ContactSection: React.FC = () => {
                                     {/*    </div>*/}
                                     {/*</div>*/}
 
-                                    <div className="flex items-start">
-                                        <FaWhatsapp className="text-[#8B7355] mt-1 mr-4 text-xl" />
-                                        <div>
-                                            <p className="font-medium">
-                                                <a
-                                                    href="https://wa.me/13467191003"
-                                                    target="_blank"
-                                                    rel="noopener noreferrer"
-                                                    className="hover:text-[#8B7355] transition-colors"
-                                                >
-                                                    WhatsApp
-                                                </a>
-                                            </p>
-                                            <p className="text-xs mt-1 text-gray-500">Click to start a chat</p>
-                                        </div>
-                                    </div>
+                                    {/*<div className="flex items-start">*/}
+                                    {/*    <FaWhatsapp className="text-[#8B7355] mt-1 mr-4 text-xl" />*/}
+                                    {/*    <div>*/}
+                                    {/*        <p className="font-medium">*/}
+                                    {/*            <a*/}
+                                    {/*                href="https://wa.me/13467191003"*/}
+                                    {/*                target="_blank"*/}
+                                    {/*                rel="noopener noreferrer"*/}
+                                    {/*                className="hover:text-[#8B7355] transition-colors"*/}
+                                    {/*            >*/}
+                                    {/*                WhatsApp*/}
+                                    {/*            </a>*/}
+                                    {/*        </p>*/}
+                                    {/*        <p className="text-xs mt-1 text-gray-500">Click to start a chat</p>*/}
+                                    {/*    </div>*/}
+                                    {/*</div>*/}
 
                                     <div className="flex items-start">
                                         <FaFacebookF className="text-[#8B7355] mt-1 mr-4 text-xl" />
@@ -147,6 +147,7 @@ const ContactSection: React.FC = () => {
                         </div>
                         <img
                             src={`${import.meta.env.BASE_URL}images/legs.jpeg`}
+                            // src={`${import.meta.env.BASE_URL}images/image1.jpeg`}
                             alt="Sophia Ballet Studio"
                             className="rounded shadow-lg max-h-[400px] w-full object-cover"
                         />

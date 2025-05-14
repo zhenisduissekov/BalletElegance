@@ -11,6 +11,9 @@ export default defineConfig({
     runtimeErrorOverlay(),
     themePlugin(),
   ],
+  server: {
+    port: 5001
+  },
   resolve: {
     alias: {
       "@": path.resolve(import.meta.dirname, "client", "src"),
